@@ -231,6 +231,77 @@ margin-left: 20px;
 
 
 
+.helps{
+
+  text-align: center;
+align-items: center;
+display: contents;
+padding: 0%;
+
+}
+.helps h1{
+
+  font-size: 20px;
+  font-weight: 800;
+  text-align: start;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+
+
+}
+.helps input{
+
+  width: 80%;
+  padding: 6% 10%;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 1%;
+}
+.helps input:hover{
+
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+.helpp{
+
+  font-size: 20px;
+  font-weight: 800;
+  padding: 30px;
+}
+@media screen and (max-width: 900px) {
+  
+  .helps h1{
+
+    font-size: 12px;
+    font-weight: 600;
+    text-align: start;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    display: block;
+  
+  
+  }
+  .helps input{
+  
+    width: 90%;
+    padding: 8%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .helpp{
+
+    font-size: 11px;
+    font-weight: 800;
+    padding: 20px;
+    margin-top: 3%;
+  }
+}
 
 
 

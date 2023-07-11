@@ -307,6 +307,7 @@ display: block;
   font-size: 18px;
   font-weight: 700;
   width: 50%;
+  cursor: pointer;
 
 }
 .ware{
@@ -322,11 +323,30 @@ display: block;
 
 }
 
+
+ .psw{
+
+  top: 0%;
+  margin-top: 0%;
+  padding: 0%;
+  display: block;
+font-size: large; 
+}
 @media screen and (max-width:900px){
 
   .ping{
 
     display: none;
+  }
+
+  .psw{
+
+    top: 0%;
+    margin-top: 0%;
+    padding: 2%;
+    display: block;
+  font-size: large; 
+  font-size: 15px;
   }
 }
 
@@ -362,3 +382,5 @@ display: block;
 display: flex;
 justify-content: space-between;
 }
+
+
